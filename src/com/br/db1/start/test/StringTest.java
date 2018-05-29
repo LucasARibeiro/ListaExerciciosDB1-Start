@@ -36,7 +36,10 @@ class StringTest {
 
 		assertEquals("ALUNO ADRIANO RIBEIRO", textoMaiusculo.retornaAlteracaoPrimeiroNome());
 
+		
+		String[] textoQuebrado = array.retornaSplit();
 		assertEquals(3, array.retornaSplit().length);
+		assertEquals("banana", textoQuebrado[0]);
 
 		assertEquals(2, vogais.retornaQuantidadeDeVogais().intValue());
 
